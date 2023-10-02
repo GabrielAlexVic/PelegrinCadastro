@@ -36,14 +36,16 @@
                 android:layout_height="wrap_content"
                 android:text="Gabriela Alexandre Victório\nRA:233138" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/img" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Samara Sampaio\nRA:227673" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img" />
+
 
         </LinearLayout>
 
