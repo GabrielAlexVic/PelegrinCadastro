@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,6 +41,7 @@ public class SecondFragment extends Fragment {
         binding.buttonSim.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(requireContext(), "Cadastro confirmado!", Toast.LENGTH_SHORT).show();
                 NavHostFragment.findNavController(SecondFragment.this)
                         .navigate(R.id.sim);
             }
