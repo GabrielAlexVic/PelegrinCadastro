@@ -16,10 +16,19 @@ import com.example.acttrabalho.data.Utils;
 import com.example.acttrabalho.databinding.FragmentFirstBinding;
 
 public class FirstFragment extends Fragment {
-
+    /**
+     * A classe FirstFragment representa o primeiro fragmento da aplicação.
+     *
+     * Ela contém uma referência ao binding do fragmento e a um usuário.
+     */
     private FragmentFirstBinding binding;
+    /**
+     * O binding do fragmento.
+     */
     private User user = new User();
-
+    /**
+     * O usuário.
+     */
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
