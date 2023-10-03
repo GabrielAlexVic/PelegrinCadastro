@@ -16,9 +16,21 @@ import com.example.acttrabalho.data.Utils;
 import com.example.acttrabalho.databinding.FragmentSecondBinding;
 
 public class SecondFragment extends Fragment {
-
+    /**
+     * A classe SecondFragment representa o segundo fragmento da aplicação.
+     *
+     * Ele contém uma referência ao binding do fragmento e a um usuário.
+     *
+     * Este fragmento pode ser usado para exibir informações sobre o usuário.
+     */
     private FragmentSecondBinding binding;
+    /**
+     * O binding do fragmento.
+     */
     private User user = new User();
+    /**
+     * O usuário.
+     */
 
     @Override
     public View onCreateView(

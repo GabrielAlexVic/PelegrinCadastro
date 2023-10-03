@@ -21,9 +21,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
-
+    /**
+     * A classe MainActivity representa a tela principal da aplicação.
+     *
+     * Ela contém uma referência à configuração da barra de aplicativos e ao binding da atividade.
+     */
     private AppBarConfiguration appBarConfiguration;
+    /**
+     * A configuração da barra de aplicativos.
+     */
     private ActivityMainBinding binding;
+    /**
+     * O binding da atividade.
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
